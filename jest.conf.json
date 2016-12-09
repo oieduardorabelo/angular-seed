@@ -7,7 +7,10 @@
     "!**/node_modules/**",
     "!**/app/bower_components/**"
   ],
+  "moduleDirectories": [
+    "app/bower_components",
+    "node_modules"
+  ],
   "setupTestFrameworkScriptFile": "<rootDir>/jest.context.js",
-  "testEnvironment": "jsdom",
   "testRegex": "(/__tests__/.*|\\_(test|spec))\\.(js)$"
 }
