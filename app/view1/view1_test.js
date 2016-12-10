@@ -2,7 +2,7 @@
 
 describe('myApp.view1 module', function() {
 
-  beforeEach(angular.mock.module('myApp.view1'));
+  beforeEach(window.module('myApp.view1'));
 
   describe('view1 controller', function(){
 

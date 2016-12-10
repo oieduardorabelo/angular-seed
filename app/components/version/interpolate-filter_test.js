@@ -1,7 +1,7 @@
 'use strict';
 
 describe('myApp.version module', function() {
-  beforeEach(angular.mock.module('myApp.version'));
+  beforeEach(window.module('myApp.version'));
 
   describe('interpolate filter', function() {
     beforeEach(angular.mock.module(function($provide) {
