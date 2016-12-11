@@ -5,7 +5,7 @@ describe('myApp.version module', function() {
 
   describe('app-version directive', function() {
     it('should print current version', function() {
-      angular.mock.module(function($provide) {
+      window.module(function($provide) {
         $provide.value('version', 'TEST_VER');
       });
       inject(function($compile, $rootScope) {

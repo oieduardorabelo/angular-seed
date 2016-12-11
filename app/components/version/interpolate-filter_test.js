@@ -4,7 +4,7 @@ describe('myApp.version module', function() {
   beforeEach(window.module('myApp.version'));
 
   describe('interpolate filter', function() {
-    beforeEach(angular.mock.module(function($provide) {
+    beforeEach(window.module(function($provide) {
       $provide.value('version', 'TEST_VER');
     }));
 
