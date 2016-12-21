@@ -11,7 +11,7 @@
     "http-server": "0.9.0",
     "jasmine-core": "2.5.2",
     "jest": "18.0.0",
-    "protractor": "4.0.13"
+    "protractor": "4.0.14"
   },
   "scripts": {
     "postinstall": "bower install",
